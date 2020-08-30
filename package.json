@@ -1,6 +1,32 @@
 {
   "name": "wb-pages",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "wb-cli": "bin/wb-pages.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-sass": "^4.1.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1"
+  },
+  "repository": "https://github.com/luckmiss-wb/wb-pages.git",
+  "author": "CaraTanl <wangbocara@163.com>"
 }
